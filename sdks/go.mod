@@ -20,7 +20,7 @@
 // directory.
 module github.com/apache/beam/sdks/v2
 
-go 1.21.0
+go 1.23
 
 require (
 	cloud.google.com/go/bigquery v1.63.1
@@ -30,12 +30,12 @@ require (
 	cloud.google.com/go/pubsub v1.44.0
 	cloud.google.com/go/spanner v1.70.0
 	cloud.google.com/go/storage v1.45.0
-	github.com/aws/aws-sdk-go-v2 v1.32.2
+	github.com/aws/aws-sdk-go-v2 v1.41.1
 	github.com/aws/aws-sdk-go-v2/config v1.28.0
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.41
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.33
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.66.0
-	github.com/aws/smithy-go v1.22.0
+	github.com/aws/smithy-go v1.24.0
 	github.com/docker/go-connections v0.5.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-sql-driver/mysql v1.8.1
